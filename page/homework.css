@@ -1,0 +1,153 @@
+body {
+    background-color: #10161d;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    margin: auto;
+}
+
+.container .content {
+    padding: auto;
+    padding-top: 3.125rem;
+    padding-bottom: 3.125rem;
+}
+
+/* 设置头部样式 */
+
+.trade {
+    margin-bottom: 1.875rem;
+}
+
+.trade span {
+    width: auto;
+    display: inline-block;
+    background-color: #17202a;
+    padding: 0.1875rem;
+    border-radius: 0.5rem;
+}
+
+.trade .selected {
+    background-color: #e9eef3;
+    color: black;
+}
+
+/* 设置表单提交样式 */
+
+.container .content .form-group {
+    display: flex;
+    align-items: center;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container .content .form-group div {
+    /* display: flex; */
+}
+
+/* 设置input */
+.container .content .form-group div input {
+    display: block;
+    background-color: #17202a;
+    border-radius: 0.5rem;
+}
+
+/* 设置label */
+.container .content .form-group div label {
+    display: block;
+}
+
+.container .content .form-group div select {
+    display: block;
+    background-color: #17202a;
+    border-radius: 0.5rem;
+}
+.container .content .form-group div button {
+    display: block;
+    border-radius: 0.5rem;
+    margin: auto;
+}
+
+.container .content .form-group div select {
+    background-color: white;
+}
+
+select option {
+    color: black;
+    background-color: #e9eef3;
+}
+
+.buy {
+    background-color: yellow;
+    margin-right: 0.625rem;
+}
+.sell {
+    background-color: green;
+}
+
+.tag {
+    margin-top: 1.5625rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.9375rem;
+}
+
+.tag span {
+    border: 0.125rem solid;
+    background-color: #212f3d;
+    display: inline-block;
+    color: #384f6d;
+    padding: 0.1875rem;
+}
+
+.tag .selected {
+    background-color: white;
+    color: black;
+}
+
+/* 设置表格 */
+
+table {
+    background-color: #17202a;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+td {
+    border: 2px solid black;
+}
+
+table .thead {
+    /* flex-wrap: wrap;
+    flex-direction: row;
+    display: flex; */
+    background-color: #2b3d4e;
+    display: flex;
+}
+
+table td {
+    text-align: left;
+    width: 8.125rem;
+
+    margin: auto;
+    flex: 1;
+}
+
+table .thead td {
+    /* display: flex;
+    flex: 1;
+    width: auto; */
+    height: 1.4375rem;
+
+    background-color: #2b3d4e;
+}
+table tr {
+    align-items: center;
+    display: flex;
+}
+
+table tbody tr td {
+    background-color: #17202a;
+}
